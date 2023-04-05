@@ -1,0 +1,25 @@
+*{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: forestgreen;
+}
+
+@media screen and(width<425px){
+  body{
+    background-color: crimson;
+  }
+}
+
+@media screen and(425px<width<768px){
+  body{
+    background-color: aqua;
+  }
+}
+
+@media screen and(425px<width<768px){
+  body{
+    background-color: darkgoldenrod;
+  }
+}
